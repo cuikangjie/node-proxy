@@ -19,8 +19,9 @@ app.use(proxy('/api'/*拦截请求*/, {
     target: 'http://www.baidu.com/',//转发地址
     changeOrigin: true,
     rewrite: path => {
-        return path.replace(/^\/api/, '') //url重定向
-    },
+        return path.replace(/^\/api/, '') //url重定向 
+ },
     logs: true
 }))
+// 拦截 http://127.0.0.1:9090/api/  所有参数
 ```
