@@ -1,18 +1,18 @@
 {
-  "name": "api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node ./app/app.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "http-proxy": "^1.16.2",
-    "koa": "^2.3.0",
-    "koa-cors": "0.0.16",
+    "name": "node-proxy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./app/app.js"
+    },
+    "author": "cuikangjie",
+    "license": "ISC",
+    "dependencies": {
+        "http-proxy": "^1.16.2",
+        "koa": "^2.3.0",
+        "koa-cors": "0.0.16",
         "co-body": ""
-  }
+    }
 }
